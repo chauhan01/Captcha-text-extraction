@@ -1,5 +1,5 @@
 # Captcha-text-extraction
-Extracting captcha using CNN
+
 
 ## Introduction
 This captcha text extractor uses open cv and keras to extract the text. It uses a CNN model trained on the seprate images of letters of the captcha. It takes an input image, output folder, cnn model and a lablebinarizier file and returns an output image with predicted captcha text as image name and also displays the output showing the predicted captcha text.
