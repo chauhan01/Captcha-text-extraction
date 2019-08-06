@@ -6,7 +6,7 @@ This captcha text extractor uses open cv and keras to extract the text. It uses 
 
 ## How it works
 
-1. Read the image  using cv2
+1. Read the image  using open cv
 2. Apply threshold
 3. Find contours
 4. Extract the image regions containing letters
