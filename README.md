@@ -16,7 +16,7 @@ This captcha text extractor uses open cv and keras to extract the text. It uses 
 
 
 ## Files Description
-- captcha.ipynb: It extracts the captcha images into separate images or letters. It also containes the complete project as jupyter notebook. 
+- captcha.ipynb: It extracts the captcha images into separate images of letters. It also containes the complete project as jupyter notebook. 
 - captcha_extractor.py: Extract the captch text, save and display the output captcha image.
 - captcha_extractor_model.hdf5: Trained CNN model used for prediction.
 - captcha_labels: Holds the labelbinarizer needed to predict the letters.
