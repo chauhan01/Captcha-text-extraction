@@ -20,6 +20,7 @@ This captcha text extractor uses open cv and keras to extract the text. It uses 
 - captcha_extractor.py: Extract the captch text, save and display the output captcha image.
 - captcha_extractor_model.hdf5: Trained CNN model used for prediction.
 - captcha_labels: Holds the labelbinarizer needed to predict the letters.
+- test_sample_captcha.png: It is a sample captcha image for testing. 
 
 
 ## Libraries required:
@@ -34,4 +35,4 @@ captcha_extractor.py needs few arguments:
 3. --model: path to the 'captcha_extractor_model.hdf5' file.
 4. --labels: Path to the captcha_labels file
 
-Sample: $python captcha_extractor.py --input test_captcha.png --output ./out --model captcha_extractor_model.hdf5 --labels captcha_labels
+Sample: $python captcha_extractor.py --input test__sample_captcha.png --output ./out --model captcha_extractor_model.hdf5 --labels captcha_labels
