@@ -36,5 +36,7 @@ captcha_extractor.py needs few arguments:
 3. --model: path to the 'captcha_extractor_model.hdf5' file.
 4. --labels: Path to the captcha_labels file
 
-## Sample:
+## Sample
+```
 $python captcha_extractor.py --input test__sample_captcha.png --output ./out --model captcha_extractor_model.hdf5 --labels captcha_labels
+```
