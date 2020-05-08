@@ -7,7 +7,7 @@ import os
 import os.path
 import pickle
 import matplotlib.pyplot as plt
-%matplolib inline
+%matplotlib inline
 from keras.models import load_model
 from sklearn.preprocessing import LabelBinarizer
 import argparse
