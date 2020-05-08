@@ -6,7 +6,6 @@ from imutils import paths
 import os
 import os.path
 import pickle
-import matplotlib.pyplot as plt
 %matplotlib inline
 from keras.models import load_model
 from sklearn.preprocessing import LabelBinarizer
@@ -110,9 +109,10 @@ save_path = os.path.join(args['output'], captcha_text)
 p = os.path.join(save_path+'.png' )
 #writing the image to the output folder
 cv2.imwrite(p, image)
+cv2.imwrite("output.png",output)
 
 print("Output saved to "+args['output'])
 # Show the annotated image
 # cv2.imshow("Output", output)
 # cv2.waitKey()
-plt.imshow(output)
+
