@@ -6,6 +6,8 @@ from imutils import paths
 import os
 import os.path
 import pickle
+import matplotlib.pyplot as plt
+%matplolib inline
 from keras.models import load_model
 from sklearn.preprocessing import LabelBinarizer
 import argparse
@@ -111,5 +113,6 @@ cv2.imwrite(p, image)
 
 print("Output saved to "+args['output'])
 # Show the annotated image
-cv2.imshow("Output", output)
-cv2.waitKey()
+# cv2.imshow("Output", output)
+# cv2.waitKey()
+plt.imshow(output)
