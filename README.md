@@ -38,5 +38,5 @@ captcha_extractor.py needs few arguments:
 
 ## Sample
 ```
-$python captcha_extractor.py --input test__sample_captcha.png --output ./out --model captcha_extractor_model.hdf5 --labels captcha_labels
+$python captcha_extractor.py --input test_sample_captcha.png --output ./out --model captcha_extractor_model.hdf5 --labels captcha_labels
 ```
